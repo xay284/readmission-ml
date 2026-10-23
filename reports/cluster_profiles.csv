@@ -1,0 +1,3 @@
+cluster,size,readmit_rate,age,days,meds,prior_inpatient,diagnoses
+0,8561,0.086,64.561,2.957,12.389,0.326,6.846
+1,6254,0.145,67.258,6.248,20.591,1.025,8.149

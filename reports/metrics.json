@@ -1,0 +1,33 @@
+{
+  "model": "rf",
+  "threshold": 0.42821564023052383,
+  "beta": 2.0,
+  "test_metrics": {
+    "threshold": 0.42821564023052383,
+    "accuracy": 0.5391157610529869,
+    "precision": 0.15858798735511065,
+    "recall": 0.732360097323601,
+    "f1": 0.2607189259419662,
+    "f2": 0.424901185770751,
+    "roc_auc": 0.6801315597693893,
+    "pr_auc": 0.23031142762070203,
+    "brier": 0.20713133648470317,
+    "tn": 6783,
+    "fp": 6388,
+    "fn": 440,
+    "tp": 1204
+  },
+  "val_pr_auc": 0.22699757540519483,
+  "n_train": 69700,
+  "n_val": 14825,
+  "n_test": 14815,
+  "positive_rate": 0.11464849354375897,
+  "trained_at": "2026-10-21T17:31:56",
+  "sklearn_version": "1.9.1",
+  "best_params": {
+    "model__min_samples_leaf": "30",
+    "model__max_features": "0.3",
+    "model__max_depth": "10"
+  },
+  "disclaimer": "Research prototype - not clinically validated."
+}
